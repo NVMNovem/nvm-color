@@ -33,14 +33,14 @@ import PackageDescription
 let package = Package(
     name: "YOUR_PROJECT_NAME",
     dependencies: [
-        .package(url: "https://github.com/NVMNovem/NVMColor_swift", from: "1.0.0"),
+        .package(url: "https://github.com/NVMNovem/nvm-color", from: "1.0.0"),
     ]
 )
 ```
 Then run `swift build`. 
 
 You can also install using SPM in your Xcode project by going to 
-"Project->NameOfYourProject->Swift Packages" and placing "https://github.com/NVMNovem/NVMColor_swift" in the 
+"Project->NameOfYourProject->Swift Packages" and placing "https://github.com/NVMNovem/nvm-color" in the 
 search field. Then select the option that is most suited for your needs.
 
 
